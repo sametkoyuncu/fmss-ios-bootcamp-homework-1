@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F123496A28C4C41900A262C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123496928C4C41900A262C3 /* AppDelegate.swift */; };
+		F123496C28C4C41900A262C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123496B28C4C41900A262C3 /* SceneDelegate.swift */; };
+		F123496E28C4C41900A262C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123496D28C4C41900A262C3 /* ViewController.swift */; };
+		F123497128C4C41900A262C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F123496F28C4C41900A262C3 /* Main.storyboard */; };
+		F123497428C4C41900A262C3 /* homework1_bmi_calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F123497228C4C41900A262C3 /* homework1_bmi_calculator.xcdatamodeld */; };
+		F123497628C4C41A00A262C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F123497528C4C41A00A262C3 /* Assets.xcassets */; };
+		F123497928C4C41A00A262C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F123497728C4C41A00A262C3 /* LaunchScreen.storyboard */; };
+		F123498128C4D14C00A262C3 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123498028C4D14C00A262C3 /* ModalViewController.swift */; };
+		F123498328C506B700A262C3 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123498228C506B700A262C3 /* UserModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F123496628C4C41900A262C3 /* homework1-bmi-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "homework1-bmi-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F123496928C4C41900A262C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F123496B28C4C41900A262C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F123496D28C4C41900A262C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F123497028C4C41900A262C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F123497328C4C41900A262C3 /* homework1_bmi_calculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = homework1_bmi_calculator.xcdatamodel; sourceTree = "<group>"; };
+		F123497528C4C41A00A262C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F123497828C4C41A00A262C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F123497A28C4C41A00A262C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F123498028C4D14C00A262C3 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		F123498228C506B700A262C3 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F123496328C4C41900A262C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F123495D28C4C41900A262C3 = {
+			isa = PBXGroup;
+			children = (
+				F123496828C4C41900A262C3 /* homework1-bmi-calculator */,
+				F123496728C4C41900A262C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F123496728C4C41900A262C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F123496628C4C41900A262C3 /* homework1-bmi-calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F123496828C4C41900A262C3 /* homework1-bmi-calculator */ = {
+			isa = PBXGroup;
+			children = (
+				F123496928C4C41900A262C3 /* AppDelegate.swift */,
+				F123496B28C4C41900A262C3 /* SceneDelegate.swift */,
+				F123498228C506B700A262C3 /* UserModel.swift */,
+				F123498028C4D14C00A262C3 /* ModalViewController.swift */,
+				F123496D28C4C41900A262C3 /* ViewController.swift */,
+				F123496F28C4C41900A262C3 /* Main.storyboard */,
+				F123497528C4C41A00A262C3 /* Assets.xcassets */,
+				F123497728C4C41A00A262C3 /* LaunchScreen.storyboard */,
+				F123497A28C4C41A00A262C3 /* Info.plist */,
+				F123497228C4C41900A262C3 /* homework1_bmi_calculator.xcdatamodeld */,
+			);
+			path = "homework1-bmi-calculator";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F123496528C4C41900A262C3 /* homework1-bmi-calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F123497D28C4C41A00A262C3 /* Build configuration list for PBXNativeTarget "homework1-bmi-calculator" */;
+			buildPhases = (
+				F123496228C4C41900A262C3 /* Sources */,
+				F123496328C4C41900A262C3 /* Frameworks */,
+				F123496428C4C41900A262C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "homework1-bmi-calculator";
+			productName = "homework1-bmi-calculator";
+			productReference = F123496628C4C41900A262C3 /* homework1-bmi-calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F123495E28C4C41900A262C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F123496528C4C41900A262C3 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = F123496128C4C41900A262C3 /* Build configuration list for PBXProject "homework1-bmi-calculator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F123495D28C4C41900A262C3;
+			productRefGroup = F123496728C4C41900A262C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F123496528C4C41900A262C3 /* homework1-bmi-calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F123496428C4C41900A262C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F123497928C4C41A00A262C3 /* LaunchScreen.storyboard in Resources */,
+				F123497628C4C41A00A262C3 /* Assets.xcassets in Resources */,
+				F123497128C4C41900A262C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F123496228C4C41900A262C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F123496E28C4C41900A262C3 /* ViewController.swift in Sources */,
+				F123498128C4D14C00A262C3 /* ModalViewController.swift in Sources */,
+				F123496A28C4C41900A262C3 /* AppDelegate.swift in Sources */,
+				F123497428C4C41900A262C3 /* homework1_bmi_calculator.xcdatamodeld in Sources */,
+				F123498328C506B700A262C3 /* UserModel.swift in Sources */,
+				F123496C28C4C41900A262C3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F123496F28C4C41900A262C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F123497028C4C41900A262C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F123497728C4C41A00A262C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F123497828C4C41A00A262C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F123497B28C4C41A00A262C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F123497C28C4C41A00A262C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F123497E28C4C41A00A262C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A9S7ZDQSZC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "homework1-bmi-calculator/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BMI Calculator";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sametkoyuncu.homework1-bmi-calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F123497F28C4C41A00A262C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A9S7ZDQSZC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "homework1-bmi-calculator/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BMI Calculator";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sametkoyuncu.homework1-bmi-calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F123496128C4C41900A262C3 /* Build configuration list for PBXProject "homework1-bmi-calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F123497B28C4C41A00A262C3 /* Debug */,
+				F123497C28C4C41A00A262C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F123497D28C4C41A00A262C3 /* Build configuration list for PBXNativeTarget "homework1-bmi-calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F123497E28C4C41A00A262C3 /* Debug */,
+				F123497F28C4C41A00A262C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F123497228C4C41900A262C3 /* homework1_bmi_calculator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F123497328C4C41900A262C3 /* homework1_bmi_calculator.xcdatamodel */,
+			);
+			currentVersion = F123497328C4C41900A262C3 /* homework1_bmi_calculator.xcdatamodel */;
+			path = homework1_bmi_calculator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F123495E28C4C41900A262C3 /* Project object */;
+}
