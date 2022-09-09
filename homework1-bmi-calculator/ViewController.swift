@@ -35,7 +35,7 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToModal" {
             let destinationVC = segue.destination as! ModalViewController
-            destinationVC.updateUserData = { data in
+            destinationVC.updateUserData = {[unowned self] data in
                 // veriables
                 let name = data.name
                 let height = data.height
