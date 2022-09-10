@@ -154,15 +154,26 @@
                                     <segue destination="v5T-Ew-3XT" kind="show" identifier="goToModal" id="Bfi-va-dul"/>
                                 </connections>
                             </button>
-                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hnY-iw-dBG">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hnY-iw-dBG">
                                 <rect key="frame" x="0.0" y="44" width="409" height="649"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow" translatesAutoresizingMaskIntoConstraints="NO" id="jMl-Vp-2Ox">
                                         <rect key="frame" x="-68" y="234" width="327" height="440"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Uygulamayı düzgün görüntüleyebilmek için, lütfen iPhone 11 üstü bir cihazda çalıştırın." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q7a-oy-KnC">
+                                        <rect key="frame" x="30" y="130" width="349" height="41"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="q7a-oy-KnC" firstAttribute="top" secondItem="hnY-iw-dBG" secondAttribute="top" constant="130" id="7Yf-jn-e5d"/>
+                                    <constraint firstItem="q7a-oy-KnC" firstAttribute="leading" secondItem="hnY-iw-dBG" secondAttribute="leading" constant="30" id="bQn-Tj-J9E"/>
+                                    <constraint firstAttribute="trailing" secondItem="q7a-oy-KnC" secondAttribute="trailing" constant="30" id="cKE-tY-Er3"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
