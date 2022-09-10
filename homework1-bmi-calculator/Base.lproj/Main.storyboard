@@ -154,7 +154,7 @@
                                     <segue destination="v5T-Ew-3XT" kind="show" identifier="goToModal" id="Bfi-va-dul"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hnY-iw-dBG">
+                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hnY-iw-dBG">
                                 <rect key="frame" x="0.0" y="44" width="409" height="649"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow" translatesAutoresizingMaskIntoConstraints="NO" id="jMl-Vp-2Ox">
