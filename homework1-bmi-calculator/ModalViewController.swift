@@ -29,8 +29,8 @@ class ModalViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        saveButton.layer.cornerRadius = 25
-        cancelButton.layer.cornerRadius = 25
+        saveButton.layer.cornerRadius = saveButton.frame.height / 2
+        cancelButton.layer.cornerRadius = cancelButton.frame.height / 2
         
     }
     

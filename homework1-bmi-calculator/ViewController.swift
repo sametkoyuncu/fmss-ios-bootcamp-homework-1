@@ -17,18 +17,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var scoreValueLabel: UILabel!
     @IBOutlet weak var scoreCategoryLabel: UILabel!
     @IBOutlet weak var calculateButton: UIButton!
-    @IBOutlet weak var welcomeView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        calculateButton.layer.cornerRadius = 30
-        avatarView.layer.cornerRadius = 50
-        welcomeView.alpha = 0.9
+        calculateButton.layer.cornerRadius = calculateButton.frame.height / 2
+        avatarView.layer.cornerRadius = avatarView.frame.height / 2
     }
     
     @IBAction func updateDataPressed(_ sender: UIButton) {
-        welcomeView.isHidden = true
         performSegue(withIdentifier: "goToModal", sender: self)
     }
     
