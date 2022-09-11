@@ -21,8 +21,9 @@ Patika & FMSS Bilişim iOS Bootcamp 1. Ödev - İki UIViewController arası veri
   3. Kullanıcı dilerse tekrar hesaplama yapabiliyor.
 
 ### Ekran Görüntüleri
-![mainScreen](https://github.com/FMSS-IOS-Patika-Bootcamp/homework-1-sametkoyuncu/blob/main/screenshoots/3.%20bmi%20result%20screen.png)
 
-![secendScreen](https://github.com/FMSS-IOS-Patika-Bootcamp/homework-1-sametkoyuncu/blob/main/screenshoots/1.%20blank%20form.png)
+<img src="https://github.com/FMSS-IOS-Patika-Bootcamp/homework-1-sametkoyuncu/blob/main/screenshoots/3.%20bmi%20result%20screen.png" width="300">
+
+<img src="https://github.com/FMSS-IOS-Patika-Bootcamp/homework-1-sametkoyuncu/blob/main/screenshoots/1.%20blank%20form.png" width="300">
 
 [Daha fazlası için tıklayınız](https://github.com/FMSS-IOS-Patika-Bootcamp/homework-1-sametkoyuncu/tree/main/screenshoots)
