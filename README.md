@@ -20,6 +20,9 @@ Patika & FMSS Bilişim iOS Bootcamp 1. Ödev - İki UIViewController arası veri
   2. Ayrıca alınan bilgilere göre hesaplanan `vücut kitle indeksi` ile değerin hangi kategoride olduğu gösteriliyor.
   3. Kullanıcı dilerse tekrar hesaplama yapabiliyor.
 
-### Ekran Kaydı
+### Ekran Görüntüleri
+![mainScreen](https://github.com/FMSS-IOS-Patika-Bootcamp/homework-1-sametkoyuncu/blob/main/screenshoots/3.%20bmi%20result%20screen.png)
 
-![app-screen-record](https://github.com/sametkoyuncu/homework1-bmi-calculator-ios/blob/main/screenshoots/screen-record2.gif?raw=true)
+![secendScreen](https://github.com/FMSS-IOS-Patika-Bootcamp/homework-1-sametkoyuncu/blob/main/screenshoots/1.%20blank%20form.png)
+
+[Daha fazlası için tıklayınız](https://github.com/FMSS-IOS-Patika-Bootcamp/homework-1-sametkoyuncu/tree/main/screenshoots)
