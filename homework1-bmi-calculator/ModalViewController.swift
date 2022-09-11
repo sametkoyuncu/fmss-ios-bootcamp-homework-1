@@ -7,10 +7,13 @@
 
 import UIKit
 
+protocol ModalViewControllerDelegate {
+    func updateUser(data: UserModel)
+}
+
 class ModalViewController: UIViewController {
     
-    // closure
-    var updateUserData : ((_ data: UserModel) -> ())?
+    var delegate: ModalViewControllerDelegate?
     
     // color dictionary
     var colors = [0: UIColor.blue, 1: UIColor.purple, 2: UIColor.systemPink, 3: UIColor.orange]
@@ -59,11 +62,11 @@ class ModalViewController: UIViewController {
         let height = heightSlider.value
         let weight = weightSlider.value
         let theme = colors[(themeSegmentedControl.selectedSegmentIndex)] ?? UIColor.blue
-        
+        // create user model
         let userData = UserModel(name: name, height: height, weight: weight, theme: theme)
-        
-        updateUserData?(userData)
-        dismiss(animated: true)
+
+        delegate?.updateUser(data: userData)
+        dismiss(animated: true, completion: nil)
     }
     
 }

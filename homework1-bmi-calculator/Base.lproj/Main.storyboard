@@ -150,7 +150,7 @@
                                 </state>
                                 <connections>
                                     <action selector="updateDataPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZKz-43-8gS"/>
-                                    <segue destination="v5T-Ew-3XT" kind="show" identifier="goToModal" id="Bfi-va-dul"/>
+                                    <segue destination="v5T-Ew-3XT" kind="presentation" id="Kci-0J-NXd"/>
                                 </connections>
                             </button>
                             <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hnY-iw-dBG">
